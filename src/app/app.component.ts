@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'my amazing app';
   color = "red"
+  potato = "car";
+  
+  catchTheThing(event){
+    this.potato = event;
+  }
 }

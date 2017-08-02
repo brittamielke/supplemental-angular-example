@@ -2,6 +2,10 @@
   i love my {{thing}} {{potato}}
 </p>
 
+<input type="text" [(ngModel)]="thing" />
+
+<button (click)="clickedTheButton()">send somthing to my mom</button>
+
 <ul>
   <li>alkfjads</li>
   <li>alkfjads</li>
@@ -15,4 +19,6 @@
   <li>alkfjads</li>
 </ul>
 
-<app-another-component></app-another-component>
+<div style="border: 1px solid blue">
+  <app-another-component></app-another-component>
+</div>
